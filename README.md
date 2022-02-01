@@ -3,7 +3,7 @@
 
 Программа обрабатывает файл [_access_log_Jul95_](https://drive.google.com/file/d/1jjzMocc0Rn9TqkK_51Oo93Fy78KYnm2i/view) одного из серверов NASA.  
 
-Это текстовый файл, каждая строка которого имеет следующий формат:
+Это текстовый файл, каждая строка которого имеет следующий формат:  
 ___\$remote_addr - - [\$local_time] “\$request” \$status \$bytes_send___  
 ___\$remote_addr___ - источник запроса  
 ___\$local_time___ - время запроса  
