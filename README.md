@@ -4,13 +4,17 @@
 Программа обрабатывает файл [_access_log_Jul95_](https://drive.google.com/file/d/1jjzMocc0Rn9TqkK_51Oo93Fy78KYnm2i/view) одного из серверов NASA.  
 
 Это текстовый файл, каждая строка которого имеет следующий формат:  
+
 ___\$remote_addr - - [\$local_time] “\$request” \$status \$bytes_send___  
+
 ___\$remote_addr___ - источник запроса  
 ___\$local_time___ - время запроса  
 ___\$request___ - запрос  
 ___\$status___ - статус ответ  
 ___\$bytes_send___ - количество переданных в ответе байт  
+
 Например:  
+
 __198.112.92.15 - - [03/Jul/1995:10:50:02 -0400] "GET /shuttle/countdown/HTTP/1.0" 200 3985__  
 
 Данная программа:  
